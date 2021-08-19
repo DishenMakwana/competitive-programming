@@ -1,0 +1,22 @@
+{
+    "files.associations": {
+        "iostream": "cpp",
+        "random": "cpp",
+        "ostream": "cpp"
+    },
+    "cSpell.words": [
+        "amax",
+        "ispowerof",
+        "kappend",
+        "numberofones",
+        "popcountll",
+        "ppcll",
+        "reversek",
+        "todelete",
+        "topele"
+    ],
+    "java.project.sourcePaths": [
+        ""
+    ],
+    "python.pythonPath": "C:\\Users\\Dishen\\AppData\\Local\\Programs\\Python\\Python39\\python.exe"
+}
