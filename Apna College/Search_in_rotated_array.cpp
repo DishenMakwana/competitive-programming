@@ -16,6 +16,11 @@ int searchInRotatedArray(int a[], int key, int l, int r)
         return mid;
     }
 
+    if (a[l] == a[mid] && a[mid] == a[r])
+    {
+        return searchInRotatedArray(a, key, l + 1, r - 1);
+    }
+
     if (a[l] <= a[mid])
     {
         if (key >= a[l] && key <= a[mid])
@@ -37,6 +42,10 @@ int32_t main()
 {
     int a[] = {6, 7, 8, 9, 10, 1, 2, 5};
     int n = 8, key = 2;
+
+    // tricky test case
+    // int a[] = {1, 0, 1, 1, 1};
+    // int n = 5, key = 0;
 
     int idx = searchInRotatedArray(a, key, 0, n - 1);
     if (idx == -1)

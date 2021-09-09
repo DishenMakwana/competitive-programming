@@ -1,14 +1,5 @@
-#include <iostream>
+#include "bits/stdc++.h"
 using namespace std;
-
-#include <set>
-#include <map>
-#include <vector>
-#include <string>
-#include <algorithm>
-#include <unordered_map>
-#include <queue>
-#include <stack>
 
 #define int long long int
 #define vi vector<int>
@@ -20,6 +11,8 @@ using namespace std;
 #define pb push_back
 #define setBits(x) builtin_popcount(x)
 #define endl '\n'
+
+const int N = 1e3 + 2, MOD = 1e9 + 7;
 
 signed main()
 {
